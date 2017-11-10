@@ -1,0 +1,10 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Mon Sep 07 10:46:44 2015
+        MODULE DX5ORDERC__genmod
+          INTERFACE 
+            SUBROUTINE DX5ORDERC(Y1,DX,U_B)
+              REAL(KIND=8), INTENT(IN) :: Y1(5)
+              REAL(KIND=8), INTENT(IN) :: DX
+              REAL(KIND=8), INTENT(OUT) :: U_B
+            END SUBROUTINE DX5ORDERC
+          END INTERFACE 
+        END MODULE DX5ORDERC__genmod

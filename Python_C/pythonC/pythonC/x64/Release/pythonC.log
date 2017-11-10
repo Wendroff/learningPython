@@ -1,0 +1,25 @@
+﻿生成启动时间为 2017/7/5 15:41:31。
+     1>项目“H:\Work\learningPython\Python_C\pythonC\pythonC\pythonC.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\pythonC.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IE:\ProgramFiles\Anaconda2\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PYTHONC_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt example.cpp
+         example.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(H:\Work\learningPython\Python_C\pythonC\x64\Release\pythonC.dll) does not match the Linker's OutputFile property value (H:\Work\learningPython\Python_C\pythonC\pythonC\_example.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1138,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(pythonC) does not match the Linker's OutputFile property value (_example). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"_example.pyd" /INCREMENTAL:NO /NOLOGO E:\ProgramFiles\Anaconda2\libs\python27.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\Work\learningPython\Python_C\pythonC\x64\Release\pythonC.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Work\learningPython\Python_C\pythonC\x64\Release\pythonC.lib" /MACHINE:X64 /DLL x64\Release\example.obj
+         x64\Release\example_wrap.obj
+            正在创建库 H:\Work\learningPython\Python_C\pythonC\x64\Release\pythonC.lib 和对象 H:\Work\learningPython\Python_C\pythonC\x64\Release\pythonC.exp
+         正在生成代码
+         已完成代码的生成
+         pythonC.vcxproj -> H:\Work\learningPython\Python_C\pythonC\x64\Release\pythonC.dll
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\pythonC.unsuccessfulbuild”。
+         正在对“x64\Release\pythonC.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\Work\learningPython\Python_C\pythonC\pythonC\pythonC.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.18

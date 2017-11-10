@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "BLE_FORTRAN", "BLE_FORTRAN\BLE_FORTRAN.vfproj", "{FA895911-4DEE-46B7-8500-2A0AF211ECD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA895911-4DEE-46B7-8500-2A0AF211ECD6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FA895911-4DEE-46B7-8500-2A0AF211ECD6}.Debug|Win32.Build.0 = Debug|Win32
+		{FA895911-4DEE-46B7-8500-2A0AF211ECD6}.Release|Win32.ActiveCfg = Release|Win32
+		{FA895911-4DEE-46B7-8500-2A0AF211ECD6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Wed Sep 02 09:30:16 2015
+        MODULE GENCSR3__genmod
+          INTERFACE 
+            SUBROUTINE GENCSR3(N)
+              INTEGER(KIND=8), INTENT(IN) :: N
+            END SUBROUTINE GENCSR3
+          END INTERFACE 
+        END MODULE GENCSR3__genmod

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{FA895911-4DEE-46B7-8500-2A0AF211ECD6}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL" UseMkl="mklParallel"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole" StackReserveSize="1000000000"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" UseMkl="mklParallel"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole" StackReserveSize="1000000000"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\Main_BLE_FORTRAN.f90"/>
+		<File RelativePath=".\Module-CSR3.f90"/>
+		<File RelativePath=".\Module-mesh.f90"/>
+		<File RelativePath=".\Module-OUTFLOW.f90"/>
+		<File RelativePath=".\Module-Phy.f90"/>
+		<File RelativePath=".\Module-physicalvalue.f90"/>
+		<File RelativePath=".\Module-referencevalue.f90"/>
+		<File RelativePath=".\Sub-Dmat.f90"/>
+		<File RelativePath=".\Sub-DmukD.f90"/>
+		<File RelativePath=".\Sub-Finte1order.f90"/>
+		<File RelativePath=".\Sub-GenCSR3.f90"/>
+		<File RelativePath=".\Sub-initial_init.f90"/>
+		<File RelativePath=".\Sub-initial_mesh.f90"/>
+		<File RelativePath=".\Sub-initial_outflow.f90"/>
+		<File RelativePath=".\Sub-initial_Ref.f90"/>
+		<File RelativePath=".\Sub-isFaiNaN.f90"/>
+		<File RelativePath=".\Sub-meanorder_H.f90"/>
+		<File RelativePath=".\Sub-my_pardiso.f90"/>
+		<File RelativePath=".\Sub-output-tecout.f90"/>
+		<File RelativePath=".\Sub-output_demensionless.f90"/>
+		<File RelativePath=".\Sub-Transferxy.f90"/>
+		<File RelativePath=".\Sub_my_mv.f90"/>
+		<File RelativePath=".\Sub_my_rmm.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>
