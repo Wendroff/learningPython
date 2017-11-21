@@ -28,4 +28,4 @@ def make_frame_mpl(t):
     return mplfig_to_npimage(fig_mpl) # RGB image of the figure
  
 animation =mpy.VideoClip(make_frame_mpl, duration=duration)
-animation.write_gif("sinc_mpl.gif", fps=20)
+animation.write_gif("sinc_mpl.gif", fps=5)
