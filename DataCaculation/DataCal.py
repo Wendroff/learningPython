@@ -35,7 +35,7 @@ def DataCal(F3=0.5,G3=0.51):
     Row18 = Row6 + Row12 + Row17
     Row19 = 0.5*np.ones(7)
     Row20 = Row18 * Row19
-    print(Row20)
+    #print(Row20)
     H21 = Row20[0] - Row20[5] 
     I21 = Row20[0] - Row20[6] 
     return (H21,I21)
