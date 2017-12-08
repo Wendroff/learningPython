@@ -7,6 +7,5 @@ Created on Thu Dec  7 14:36:43 2017
 
 import sys
 print(len(sys.argv))
-print('script names: '+sys.argv[0])
-
-print(sys.argv[1])
+for i in range(len(sys.argv))
+	print(sys.argv[i]+'\n')

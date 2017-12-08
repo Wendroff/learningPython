@@ -1,0 +1,1 @@
+@"E:\ProgramFiles\Anaconda2\envs\python36\python.exe" "H:\Work\learningPython\Sys_argv\sys_test.py" %*
